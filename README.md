@@ -37,12 +37,12 @@ Just before the closing `</body>` tag, include the script and start it when the 
 
 You can override the default settings by adding `data-*` attributes to an element.
 
-- *number* `data-r-min`: Minimum red value.
-- *number* `data-r-max`: Maximum red value.
-- *number* `data-g-min`: Minimum green value.
-- *number* `data-g-max`: Maximum green value.
-- *number* `data-b-min`: Minimum blue value.
-- *number* `data-b-max`: Maximum blue value.
+- *number* `data-r-min`: Minimum red value, valid: `0`-`255`
+- *number* `data-r-max`: Maximum red value, valid: `0`-`255`
+- *number* `data-g-min`: Minimum green value, valid: `0`-`255`
+- *number* `data-g-max`: Maximum green value, valid: `0`-`255`
+- *number* `data-b-min`: Minimum blue value, valid: `0`-`255`
+- *number* `data-b-max`: Maximum blue value, valid: `0`-`255`
 - *number* `data-dur`: Fade duration in seconds.
 - *string* `data-func`: Timing function, valid: `linear`, `ease`, `ease-in`, `ease-out`, `ease-in-out`, `step-start`, `step-end`
 - *string* `data-target`: Which part of the element to colorize, valid: `text`, `background`, `border`
